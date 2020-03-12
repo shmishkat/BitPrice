@@ -11,10 +11,84 @@
 		A24091FC241A97E200D76720 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24091FB241A97E200D76720 /* SceneDelegate.swift */; };
 		A24091FF241A97E200D76720 /* BitPrice.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A24091FD241A97E200D76720 /* BitPrice.xcdatamodeld */; };
 		A2409201241A97E200D76720 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2409200241A97E200D76720 /* ContentView.swift */; };
-		A2409203241A97E500D76720 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2409202241A97E500D76720 /* Assets.xcassets */; };
 		A2409206241A97E500D76720 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2409205241A97E500D76720 /* Preview Assets.xcassets */; };
 		A2409209241A97E500D76720 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2409207241A97E500D76720 /* LaunchScreen.storyboard */; };
+		A2409211241A980200D76720 /* BitData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2409210241A980200D76720 /* BitData.swift */; };
+		A2409219241A9D2000D76720 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2409218241A9D2000D76720 /* AppDelegate.swift */; };
+		A240921B241A9D2000D76720 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A240921A241A9D2000D76720 /* ContentView.swift */; };
+		A240921E241A9D2000D76720 /* BitPriceMac.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A240921C241A9D2000D76720 /* BitPriceMac.xcdatamodeld */; };
+		A2409223241A9D2200D76720 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2409222241A9D2200D76720 /* Preview Assets.xcassets */; };
+		A2409226241A9D2200D76720 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2409224241A9D2200D76720 /* Main.storyboard */; };
+		A240922C241A9D5A00D76720 /* BitData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2409210241A980200D76720 /* BitData.swift */; };
+		A2409233241A9E7F00D76720 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2409232241A9E7F00D76720 /* Assets.xcassets */; };
+		A2409234241A9E7F00D76720 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2409232241A9E7F00D76720 /* Assets.xcassets */; };
+		A2409236241A9EE000D76720 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2409235241A9EE000D76720 /* Assets.xcassets */; };
+		A2409237241A9EE000D76720 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2409235241A9EE000D76720 /* Assets.xcassets */; };
+		A2B1F86A241AA604004546B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B1F869241AA604004546B0 /* AppDelegate.swift */; };
+		A2B1F86D241AA604004546B0 /* BitPriceTV.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A2B1F86B241AA604004546B0 /* BitPriceTV.xcdatamodeld */; };
+		A2B1F86F241AA604004546B0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B1F86E241AA604004546B0 /* ContentView.swift */; };
+		A2B1F871241AA608004546B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2B1F870241AA608004546B0 /* Assets.xcassets */; };
+		A2B1F874241AA608004546B0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2B1F873241AA608004546B0 /* Preview Assets.xcassets */; };
+		A2B1F877241AA608004546B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2B1F875241AA608004546B0 /* LaunchScreen.storyboard */; };
+		A2B1F87C241AA681004546B0 /* BitData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2409210241A980200D76720 /* BitData.swift */; };
+		A2B1F87D241AA687004546B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2409235241A9EE000D76720 /* Assets.xcassets */; };
+		A2B1F884241AA93C004546B0 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2B1F882241AA93C004546B0 /* Interface.storyboard */; };
+		A2B1F886241AA93F004546B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2B1F885241AA93F004546B0 /* Assets.xcassets */; };
+		A2B1F88D241AA93F004546B0 /* BitPriceWatch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A2B1F88C241AA93F004546B0 /* BitPriceWatch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A2B1F892241AA93F004546B0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B1F891241AA93F004546B0 /* ContentView.swift */; };
+		A2B1F894241AA93F004546B0 /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B1F893241AA93F004546B0 /* HostingController.swift */; };
+		A2B1F896241AA93F004546B0 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B1F895241AA93F004546B0 /* ExtensionDelegate.swift */; };
+		A2B1F898241AA93F004546B0 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B1F897241AA93F004546B0 /* NotificationController.swift */; };
+		A2B1F89A241AA93F004546B0 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B1F899241AA93F004546B0 /* NotificationView.swift */; };
+		A2B1F89C241AA942004546B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2B1F89B241AA942004546B0 /* Assets.xcassets */; };
+		A2B1F89F241AA942004546B0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2B1F89E241AA942004546B0 /* Preview Assets.xcassets */; };
+		A2B1F8A4241AA942004546B0 /* BitPriceWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A2B1F880241AA93C004546B0 /* BitPriceWatch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A2B1F8AD241AA960004546B0 /* BitData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2409210241A980200D76720 /* BitData.swift */; };
+		A2B1F8AE241AA96A004546B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2409235241A9EE000D76720 /* Assets.xcassets */; };
+		A2B1F8AF241AA96A004546B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2409235241A9EE000D76720 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2B1F88E241AA93F004546B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A24091EE241A97E200D76720 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2B1F88B241AA93F004546B0;
+			remoteInfo = "BitPriceWatch Extension";
+		};
+		A2B1F8A2241AA942004546B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A24091EE241A97E200D76720 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2B1F87F241AA93C004546B0;
+			remoteInfo = BitPriceWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A2B1F8A8241AA942004546B0 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A2B1F88D241AA93F004546B0 /* BitPriceWatch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2B1F8AC241AA942004546B0 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				A2B1F8A4241AA942004546B0 /* BitPriceWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		A24091F6241A97E200D76720 /* BitPrice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitPrice.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,14 +96,67 @@
 		A24091FB241A97E200D76720 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A24091FE241A97E200D76720 /* BitPrice.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BitPrice.xcdatamodel; sourceTree = "<group>"; };
 		A2409200241A97E200D76720 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		A2409202241A97E500D76720 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2409205241A97E500D76720 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A2409208241A97E500D76720 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A240920A241A97E500D76720 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2409210241A980200D76720 /* BitData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BitData.swift; sourceTree = "<group>"; };
+		A2409216241A9D2000D76720 /* BitPriceMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitPriceMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2409218241A9D2000D76720 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A240921A241A9D2000D76720 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A240921D241A9D2000D76720 /* BitPriceMac.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BitPriceMac.xcdatamodel; sourceTree = "<group>"; };
+		A2409222241A9D2200D76720 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A2409225241A9D2200D76720 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2409227241A9D2200D76720 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2409228241A9D2200D76720 /* BitPriceMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BitPriceMac.entitlements; sourceTree = "<group>"; };
+		A2409232241A9E7F00D76720 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2409235241A9EE000D76720 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2B1F867241AA604004546B0 /* BitPriceTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitPriceTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2B1F869241AA604004546B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A2B1F86C241AA604004546B0 /* BitPriceTV.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BitPriceTV.xcdatamodel; sourceTree = "<group>"; };
+		A2B1F86E241AA604004546B0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A2B1F870241AA608004546B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2B1F873241AA608004546B0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A2B1F876241AA608004546B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A2B1F878241AA608004546B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2B1F880241AA93C004546B0 /* BitPriceWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitPriceWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2B1F883241AA93C004546B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		A2B1F885241AA93F004546B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2B1F887241AA93F004546B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2B1F88C241AA93F004546B0 /* BitPriceWatch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "BitPriceWatch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2B1F891241AA93F004546B0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A2B1F893241AA93F004546B0 /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
+		A2B1F895241AA93F004546B0 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		A2B1F897241AA93F004546B0 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		A2B1F899241AA93F004546B0 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		A2B1F89B241AA942004546B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2B1F89E241AA942004546B0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A2B1F8A0241AA942004546B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2B1F8A1241AA942004546B0 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		A24091F3241A97E200D76720 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2409213241A9D2000D76720 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2B1F864241AA604004546B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2B1F889241AA93F004546B0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,6 +170,10 @@
 			isa = PBXGroup;
 			children = (
 				A24091F8241A97E200D76720 /* BitPrice */,
+				A2409217241A9D2000D76720 /* BitPriceMac */,
+				A2B1F868241AA604004546B0 /* BitPriceTV */,
+				A2B1F881241AA93C004546B0 /* BitPriceWatch */,
+				A2B1F890241AA93F004546B0 /* BitPriceWatch Extension */,
 				A24091F7241A97E200D76720 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,6 +182,10 @@
 			isa = PBXGroup;
 			children = (
 				A24091F6241A97E200D76720 /* BitPrice.app */,
+				A2409216241A9D2000D76720 /* BitPriceMac.app */,
+				A2B1F867241AA604004546B0 /* BitPriceTV.app */,
+				A2B1F880241AA93C004546B0 /* BitPriceWatch.app */,
+				A2B1F88C241AA93F004546B0 /* BitPriceWatch Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,7 +196,8 @@
 				A24091F9241A97E200D76720 /* AppDelegate.swift */,
 				A24091FB241A97E200D76720 /* SceneDelegate.swift */,
 				A2409200241A97E200D76720 /* ContentView.swift */,
-				A2409202241A97E500D76720 /* Assets.xcassets */,
+				A2409210241A980200D76720 /* BitData.swift */,
+				A2409235241A9EE000D76720 /* Assets.xcassets */,
 				A2409207241A97E500D76720 /* LaunchScreen.storyboard */,
 				A240920A241A97E500D76720 /* Info.plist */,
 				A24091FD241A97E200D76720 /* BitPrice.xcdatamodeld */,
@@ -78,6 +214,85 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		A2409217241A9D2000D76720 /* BitPriceMac */ = {
+			isa = PBXGroup;
+			children = (
+				A2409218241A9D2000D76720 /* AppDelegate.swift */,
+				A240921A241A9D2000D76720 /* ContentView.swift */,
+				A2409232241A9E7F00D76720 /* Assets.xcassets */,
+				A2409224241A9D2200D76720 /* Main.storyboard */,
+				A2409227241A9D2200D76720 /* Info.plist */,
+				A2409228241A9D2200D76720 /* BitPriceMac.entitlements */,
+				A240921C241A9D2000D76720 /* BitPriceMac.xcdatamodeld */,
+				A2409221241A9D2200D76720 /* Preview Content */,
+			);
+			path = BitPriceMac;
+			sourceTree = "<group>";
+		};
+		A2409221241A9D2200D76720 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A2409222241A9D2200D76720 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A2B1F868241AA604004546B0 /* BitPriceTV */ = {
+			isa = PBXGroup;
+			children = (
+				A2B1F869241AA604004546B0 /* AppDelegate.swift */,
+				A2B1F86E241AA604004546B0 /* ContentView.swift */,
+				A2B1F870241AA608004546B0 /* Assets.xcassets */,
+				A2B1F875241AA608004546B0 /* LaunchScreen.storyboard */,
+				A2B1F878241AA608004546B0 /* Info.plist */,
+				A2B1F86B241AA604004546B0 /* BitPriceTV.xcdatamodeld */,
+				A2B1F872241AA608004546B0 /* Preview Content */,
+			);
+			path = BitPriceTV;
+			sourceTree = "<group>";
+		};
+		A2B1F872241AA608004546B0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A2B1F873241AA608004546B0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A2B1F881241AA93C004546B0 /* BitPriceWatch */ = {
+			isa = PBXGroup;
+			children = (
+				A2B1F882241AA93C004546B0 /* Interface.storyboard */,
+				A2B1F885241AA93F004546B0 /* Assets.xcassets */,
+				A2B1F887241AA93F004546B0 /* Info.plist */,
+			);
+			path = BitPriceWatch;
+			sourceTree = "<group>";
+		};
+		A2B1F890241AA93F004546B0 /* BitPriceWatch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A2B1F891241AA93F004546B0 /* ContentView.swift */,
+				A2B1F893241AA93F004546B0 /* HostingController.swift */,
+				A2B1F895241AA93F004546B0 /* ExtensionDelegate.swift */,
+				A2B1F897241AA93F004546B0 /* NotificationController.swift */,
+				A2B1F899241AA93F004546B0 /* NotificationView.swift */,
+				A2B1F89B241AA942004546B0 /* Assets.xcassets */,
+				A2B1F8A0241AA942004546B0 /* Info.plist */,
+				A2B1F8A1241AA942004546B0 /* PushNotificationPayload.apns */,
+				A2B1F89D241AA942004546B0 /* Preview Content */,
+			);
+			path = "BitPriceWatch Extension";
+			sourceTree = "<group>";
+		};
+		A2B1F89D241AA942004546B0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A2B1F89E241AA942004546B0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -88,15 +303,85 @@
 				A24091F2241A97E200D76720 /* Sources */,
 				A24091F3241A97E200D76720 /* Frameworks */,
 				A24091F4241A97E200D76720 /* Resources */,
+				A2B1F8AC241AA942004546B0 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				A2B1F8A3241AA942004546B0 /* PBXTargetDependency */,
 			);
 			name = BitPrice;
 			productName = BitPrice;
 			productReference = A24091F6241A97E200D76720 /* BitPrice.app */;
 			productType = "com.apple.product-type.application";
+		};
+		A2409215241A9D2000D76720 /* BitPriceMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A240922B241A9D2200D76720 /* Build configuration list for PBXNativeTarget "BitPriceMac" */;
+			buildPhases = (
+				A2409212241A9D2000D76720 /* Sources */,
+				A2409213241A9D2000D76720 /* Frameworks */,
+				A2409214241A9D2000D76720 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BitPriceMac;
+			productName = BitPriceMac;
+			productReference = A2409216241A9D2000D76720 /* BitPriceMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2B1F866241AA604004546B0 /* BitPriceTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2B1F87B241AA608004546B0 /* Build configuration list for PBXNativeTarget "BitPriceTV" */;
+			buildPhases = (
+				A2B1F863241AA604004546B0 /* Sources */,
+				A2B1F864241AA604004546B0 /* Frameworks */,
+				A2B1F865241AA604004546B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BitPriceTV;
+			productName = BitPriceTV;
+			productReference = A2B1F867241AA604004546B0 /* BitPriceTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2B1F87F241AA93C004546B0 /* BitPriceWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2B1F8A9241AA942004546B0 /* Build configuration list for PBXNativeTarget "BitPriceWatch" */;
+			buildPhases = (
+				A2B1F87E241AA93C004546B0 /* Resources */,
+				A2B1F8A8241AA942004546B0 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2B1F88F241AA93F004546B0 /* PBXTargetDependency */,
+			);
+			name = BitPriceWatch;
+			productName = BitPriceWatch;
+			productReference = A2B1F880241AA93C004546B0 /* BitPriceWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		A2B1F88B241AA93F004546B0 /* BitPriceWatch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2B1F8A5241AA942004546B0 /* Build configuration list for PBXNativeTarget "BitPriceWatch Extension" */;
+			buildPhases = (
+				A2B1F888241AA93F004546B0 /* Sources */,
+				A2B1F889241AA93F004546B0 /* Frameworks */,
+				A2B1F88A241AA93F004546B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BitPriceWatch Extension";
+			productName = "BitPriceWatch Extension";
+			productReference = A2B1F88C241AA93F004546B0 /* BitPriceWatch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -109,6 +394,18 @@
 				ORGANIZATIONNAME = "Sarowar H. Mishkat";
 				TargetAttributes = {
 					A24091F5241A97E200D76720 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					A2409215241A9D2000D76720 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					A2B1F866241AA604004546B0 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					A2B1F87F241AA93C004546B0 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					A2B1F88B241AA93F004546B0 = {
 						CreatedOnToolsVersion = 11.3;
 					};
 				};
@@ -127,6 +424,10 @@
 			projectRoot = "";
 			targets = (
 				A24091F5241A97E200D76720 /* BitPrice */,
+				A2409215241A9D2000D76720 /* BitPriceMac */,
+				A2B1F866241AA604004546B0 /* BitPriceTV */,
+				A2B1F87F241AA93C004546B0 /* BitPriceWatch */,
+				A2B1F88B241AA93F004546B0 /* BitPriceWatch Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -138,7 +439,50 @@
 			files = (
 				A2409209241A97E500D76720 /* LaunchScreen.storyboard in Resources */,
 				A2409206241A97E500D76720 /* Preview Assets.xcassets in Resources */,
-				A2409203241A97E500D76720 /* Assets.xcassets in Resources */,
+				A2409236241A9EE000D76720 /* Assets.xcassets in Resources */,
+				A2409233241A9E7F00D76720 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2409214241A9D2000D76720 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2409226241A9D2200D76720 /* Main.storyboard in Resources */,
+				A2409223241A9D2200D76720 /* Preview Assets.xcassets in Resources */,
+				A2409237241A9EE000D76720 /* Assets.xcassets in Resources */,
+				A2409234241A9E7F00D76720 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2B1F865241AA604004546B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2B1F877241AA608004546B0 /* LaunchScreen.storyboard in Resources */,
+				A2B1F874241AA608004546B0 /* Preview Assets.xcassets in Resources */,
+				A2B1F87D241AA687004546B0 /* Assets.xcassets in Resources */,
+				A2B1F871241AA608004546B0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2B1F87E241AA93C004546B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2B1F886241AA93F004546B0 /* Assets.xcassets in Resources */,
+				A2B1F8AF241AA96A004546B0 /* Assets.xcassets in Resources */,
+				A2B1F884241AA93C004546B0 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2B1F88A241AA93F004546B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2B1F89F241AA942004546B0 /* Preview Assets.xcassets in Resources */,
+				A2B1F8AE241AA96A004546B0 /* Assets.xcassets in Resources */,
+				A2B1F89C241AA942004546B0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +493,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2409211241A980200D76720 /* BitData.swift in Sources */,
 				A24091FA241A97E200D76720 /* AppDelegate.swift in Sources */,
 				A24091FC241A97E200D76720 /* SceneDelegate.swift in Sources */,
 				A2409201241A97E200D76720 /* ContentView.swift in Sources */,
@@ -156,7 +501,55 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A2409212241A9D2000D76720 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A240921B241A9D2000D76720 /* ContentView.swift in Sources */,
+				A240922C241A9D5A00D76720 /* BitData.swift in Sources */,
+				A240921E241A9D2000D76720 /* BitPriceMac.xcdatamodeld in Sources */,
+				A2409219241A9D2000D76720 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2B1F863241AA604004546B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2B1F86A241AA604004546B0 /* AppDelegate.swift in Sources */,
+				A2B1F87C241AA681004546B0 /* BitData.swift in Sources */,
+				A2B1F86D241AA604004546B0 /* BitPriceTV.xcdatamodeld in Sources */,
+				A2B1F86F241AA604004546B0 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2B1F888241AA93F004546B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2B1F894241AA93F004546B0 /* HostingController.swift in Sources */,
+				A2B1F892241AA93F004546B0 /* ContentView.swift in Sources */,
+				A2B1F898241AA93F004546B0 /* NotificationController.swift in Sources */,
+				A2B1F8AD241AA960004546B0 /* BitData.swift in Sources */,
+				A2B1F896241AA93F004546B0 /* ExtensionDelegate.swift in Sources */,
+				A2B1F89A241AA93F004546B0 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2B1F88F241AA93F004546B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2B1F88B241AA93F004546B0 /* BitPriceWatch Extension */;
+			targetProxy = A2B1F88E241AA93F004546B0 /* PBXContainerItemProxy */;
+		};
+		A2B1F8A3241AA942004546B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2B1F87F241AA93C004546B0 /* BitPriceWatch */;
+			targetProxy = A2B1F8A2241AA942004546B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		A2409207241A97E500D76720 /* LaunchScreen.storyboard */ = {
@@ -165,6 +558,30 @@
 				A2409208241A97E500D76720 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A2409224241A9D2200D76720 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2409225241A9D2200D76720 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A2B1F875241AA608004546B0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2B1F876241AA608004546B0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A2B1F882241AA93C004546B0 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2B1F883241AA93C004546B0 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -322,6 +739,174 @@
 			};
 			name = Release;
 		};
+		A2409229241A9D2200D76720 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BitPriceMac/BitPriceMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"BitPriceMac/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BitPriceMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = me.shmishkat.BitPriceMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A240922A241A9D2200D76720 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BitPriceMac/BitPriceMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"BitPriceMac/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BitPriceMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = me.shmishkat.BitPriceMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A2B1F879241AA608004546B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BitPriceTV/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BitPriceTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.shmishkat.BitPriceTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 13.2;
+			};
+			name = Debug;
+		};
+		A2B1F87A241AA608004546B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BitPriceTV/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BitPriceTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.shmishkat.BitPriceTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 13.2;
+			};
+			name = Release;
+		};
+		A2B1F8A6241AA942004546B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BitPriceWatch Extension/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "BitPriceWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.shmishkat.BitPrice.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		A2B1F8A7241AA942004546B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BitPriceWatch Extension/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "BitPriceWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.shmishkat.BitPrice.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		A2B1F8AA241AA942004546B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = BitPriceWatch_Extension;
+				INFOPLIST_FILE = BitPriceWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = me.shmishkat.BitPrice.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		A2B1F8AB241AA942004546B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = BitPriceWatch_Extension;
+				INFOPLIST_FILE = BitPriceWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = me.shmishkat.BitPrice.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -343,6 +928,42 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		A240922B241A9D2200D76720 /* Build configuration list for PBXNativeTarget "BitPriceMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2409229241A9D2200D76720 /* Debug */,
+				A240922A241A9D2200D76720 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2B1F87B241AA608004546B0 /* Build configuration list for PBXNativeTarget "BitPriceTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2B1F879241AA608004546B0 /* Debug */,
+				A2B1F87A241AA608004546B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2B1F8A5241AA942004546B0 /* Build configuration list for PBXNativeTarget "BitPriceWatch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2B1F8A6241AA942004546B0 /* Debug */,
+				A2B1F8A7241AA942004546B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2B1F8A9241AA942004546B0 /* Build configuration list for PBXNativeTarget "BitPriceWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2B1F8AA241AA942004546B0 /* Debug */,
+				A2B1F8AB241AA942004546B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
@@ -353,6 +974,26 @@
 			);
 			currentVersion = A24091FE241A97E200D76720 /* BitPrice.xcdatamodel */;
 			path = BitPrice.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		A240921C241A9D2000D76720 /* BitPriceMac.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A240921D241A9D2000D76720 /* BitPriceMac.xcdatamodel */,
+			);
+			currentVersion = A240921D241A9D2000D76720 /* BitPriceMac.xcdatamodel */;
+			path = BitPriceMac.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		A2B1F86B241AA604004546B0 /* BitPriceTV.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A2B1F86C241AA604004546B0 /* BitPriceTV.xcdatamodel */,
+			);
+			currentVersion = A2B1F86C241AA604004546B0 /* BitPriceTV.xcdatamodel */;
+			path = BitPriceTV.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
